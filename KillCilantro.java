@@ -1,8 +1,8 @@
 public class KillCilantro {
 
-      public static string killCilantro(String t)
+      public static String killCilantro(String t)
       {
-         String fixed = "";
+         String rw = "";
          int ii = 0;
       
          while( ii < t.length())
@@ -27,7 +27,7 @@ public class KillCilantro {
    {
         String s = "Cilantro tasts like soap i dont like it";
         
-        String done = killCilantro(stuff);
+        String done = killCilantro(s);
         System.out.println(done);
    }
 }
