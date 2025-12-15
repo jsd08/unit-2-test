@@ -3,21 +3,21 @@ public class KillCilantro {
       public static String killCilantro(String t)
       {
          String rw = "";
-         int ii = 0;
+         int i = 0;
       
-         while( ii < t.length())
+         while( i < t.length())
          {
       
-            if ( ii + 8 <= t.length() && t.substring(ii, ii+8). equals("cilantro") )
+            if ( i + 8 <= t.length() && t.substring(i, i+8). equals("cilantro") )
             {
                rw = rw + "parsley";
-               ii = ii + 8;
+               i = i + 8;
             
             }
             else
             {
-               rw = rw + t.charAt(ii);
-               ii = ii + 1;
+               rw = rw + t.charAt(i);
+               i = i + 1;
             }
       }
       return rw;
